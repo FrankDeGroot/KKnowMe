@@ -7,3 +7,4 @@ app/bower_components
 *.suo
 bin
 obj
+nbproject/private

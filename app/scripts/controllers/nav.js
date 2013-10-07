@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 angular.module('KKnowMeApp').controller('NavCtrl', function ($scope, $location) {
   $scope.isUrl = function (path) {
