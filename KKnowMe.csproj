@@ -44,6 +44,44 @@
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="app\.buildignore" />
+    <Content Include="app\.htaccess" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="karma-e2e.conf.js" />
+    <Content Include="karma.conf.js" />
+    <Content Include="test\runner.html" />
+    <Content Include="test\spec\controllers\nav.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\404.html" />
+    <Content Include="app\favicon.ico" />
+    <Content Include="app\index.html" />
+    <Content Include="app\robots.txt" />
+    <Content Include="app\scripts\app.js" />
+    <Content Include="app\scripts\controllers\main.js" />
+    <Content Include="app\scripts\controllers\nav.js" />
+    <Content Include="app\scripts\controllers\profile\query.js" />
+    <Content Include="app\scripts\controllers\user.js" />
+    <Content Include="app\scripts\services\backend.js" />
+    <Content Include="app\styles\main.css" />
+    <Content Include="app\views\main.html" />
+    <Content Include="app\views\profile\query.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".bowerrc" />
+    <Content Include=".editorconfig" />
+    <Content Include=".jshintrc" />
+    <Content Include=".travis.yml" />
+    <Content Include="bower.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test\.jshintrc" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
